@@ -1,0 +1,38 @@
+.youtube-image-previews {
+  width: 350px;
+  padding: 10px;
+  background: #f5f5f5; /*url('img/bg.jpg');*/
+  border: 1px solid #ddd;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.youtube-image-previews h3,
+.youtube-image-previews .url {
+  font-family: Verdana, sans serif;
+}
+.youtube-image-previews h3 {
+  margin: 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.thumbnail img {
+  max-width: 100%;
+  /*border: 1px solid #ccc;*/
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.thumbnail .url {
+  width: 100%;
+  background: #fff;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: text;
+}
+.thumbnail .url p {
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+}
