@@ -2,7 +2,7 @@
   "name": "YouTube Image Previews",
   "description": "Get any image thumbnails associated with a particular YouTube video.",
   "permissions": [ "tabs", "http://www.youtube.com/*" ],
-  "version": "2.0.0.3",
+  "version": "0.2",
   "manifest_version":2,
   "icons": { 
     "16": "img/youtube-image-previews-icon-16.png",

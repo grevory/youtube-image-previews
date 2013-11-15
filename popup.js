@@ -53,7 +53,8 @@ var youTubeImagePreview = {
     if (!thumbnailNumber || thumbnailNumber>this.numberOfThumbnails)
       thumbnailNumber = 0;
 
-    return 'http://img.youtube.com/vi/'+this.videoId+'/'+thumbnailNumber+'.jpg';
+    // return 'http://img.youtube.com/vi/'+this.videoId+'/'+thumbnailNumber+'.jpg';
+    return 'http://img.youtube.com/vi/'+this.videoId+'/maxresdefault.jpg';
   },
 
   drawTemplate: function(){
